@@ -34,4 +34,6 @@ body {
     text-transform: uppercase;
     font-size: 111pt;
     margin: 0 auto;
+    letter-spacing: -6px;
+    word-spacing: 45px;
 }
