@@ -13,27 +13,51 @@ body {
     font-family: franchise, serif;
     font-weight: bolder;
     overflow-y: scroll;
+    height: 100%;
 }
 
 #pagesContainer {
-    display: table;
-    height: 100%;
     width: 100%;
+    height: 400%;
 }
 
-#page1 {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    display: table-cell;
+#pagesContainer section {
+    height: 25%;
+    width: 95%;
+    padding: 10px 2.5%;
+
     text-align: center;
-    vertical-align: middle;
+    position: relative;
+
+    /* So that we can use table-cell for vertical centering below */
+    display: table;
 }
 
-.title {
+.verticalCenterer {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#titlePage {
+    height: 100%;
+}
+
+h1#title {
+    margin: 7% auto;
+
     text-transform: uppercase;
-    font-size: 111pt;
-    margin: 0 auto;
+    font-size: 232pt;
     letter-spacing: -6px;
     word-spacing: 45px;
+    line-height: 83%;
+}
+
+#keepReading {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    left: 0;
+
+    font-size: 30pt;
 }
