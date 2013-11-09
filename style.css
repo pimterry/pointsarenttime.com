@@ -75,6 +75,7 @@ h1#title {
     font-size: 16pt;
     font-family: 'Roboto Slab';
     font-weight: normal;
+    text-shadow: 2px 2px 1px #eee;
     color: #888;
 }
 
