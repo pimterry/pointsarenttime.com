@@ -110,4 +110,14 @@ section.specificPoint {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+
+    background:no-repeat center;    
+}
+
+.practicalities .yes {
+    background-image:url('images/yes.png');
+}
+
+.practicalities .no {
+    background-image:url('images/no.png')
 }
