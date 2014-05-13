@@ -97,17 +97,6 @@ section.specificPoint {
     color: #fff;
 }
 
-footer {
-    padding: 50px;
-    font-size: 17pt;
-    font-weight: 300;
-}
-
-footer a {
-    color: #fff;
-    font-weight: normal;
-}
-
 .practicalities {
     display: table;
     position: relative;
@@ -134,4 +123,19 @@ footer a {
 
 .practicalities .no {
     background-image:url('images/no.png')
+}
+
+footer {
+    padding: 50px;
+    font-size: 17pt;
+    font-weight: 300;
+}
+
+footer a {
+    color: #fff;
+    font-weight: normal;
+}
+
+footer .twitter-share-button {
+    float: right;
 }
