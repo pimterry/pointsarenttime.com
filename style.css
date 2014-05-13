@@ -79,19 +79,33 @@ h1#title {
     color: #888;
 }
 
-section.specificPoint {
+section.specificPoint, footer {
     background-color: #0B486B;
     color: #ddd;
     height: auto;
-    padding: 50px 14%;
-    font-size: 40pt;
     font-family: 'Roboto Slab';
+}
+
+section.specificPoint {
     font-weight: lighter;
+    padding: 100px 14%;
+    font-size: 40pt;
 }
 
 .specificPoint strong {
     font-weight: 400;
     color: #fff;
+}
+
+footer {
+    padding: 50px;
+    font-size: 17pt;
+    font-weight: 300;
+}
+
+footer a {
+    color: #fff;
+    font-weight: normal;
 }
 
 .practicalities {
@@ -105,7 +119,7 @@ section.specificPoint {
 .practicalities .yes, .practicalities .no {
     width: 40%;
     margin: 0;
-    padding: 5%;
+    padding: 6% 5%;
 
     height: 100%;
     display: table-cell;
